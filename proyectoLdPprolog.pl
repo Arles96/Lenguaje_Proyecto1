@@ -16,7 +16,7 @@ aula(zo0jj, 68, 40).
 aula(vdrn1, 55, 45).
 aula(iqr46, 32, 50).
 aula(mufe5, 37, 55).
-aula(a64n7, 43, 60).	
+aula(a64n7, 43, 60).
 aula(mdxfp, 56, 65).
 aula(zhnvt, 11, 70).
 aula(mo475, 27, 75).
@@ -56,7 +56,6 @@ aula(k2sc9, 30, 45).
 aula(m4bcw, 40, 90).
 aula(jn6wd, 50, 25).
 
-
 estudiante(2000100001, 1, [math101, phys201, ec201]) .
 estudiante(2000100002, 1, [math101, phys201, hist301]).
 estudiante(2000100003, 1, [math101, ec201, hist301]) .
@@ -77,6 +76,49 @@ estudiante(2002100040, 1, [math101, hist301]).
 estudiante(2002100032, 0, [phys201, ec201]).
 estudiante(2002100010, 0, [cmpe150]).
 estudiante(2002103010, 1, []).
+estudiante(2002103011, 0, [math101, phys201]).
+estudiante(2002103012, 1, [ec201]).
+estudiante(2002103015, 1, [phys201]).
+estudiante(2002103017, 0, [math101, phys201, hist301]).
+estudiante(2002103019, 1, [math101]).
+estudiante(2002203019, 1, [hist301]).
+estudiante(2002203020, 0, [ec201, hist301]).
+estudiante(2002203021, 0, [cmpe150, math101]).
+estudiante(2002203022, 0, [math101, hist301, phys201]).
+estudiante(2003203023, 1, [math101]).
+estudiante(2003205698, 0, [] ).
+estudiante(2003205699, 1, [math101, phys201, cmpe150]).
+estudiante(2003205700, 1, [hist301]).
+estudiante(2003205702, 1, [math101, ec201, phys201]).
+estudiante(2003205703, 0, []).
+estudiante(2003205785, 0, [hist301, ec201, cmp150, phys201]).
+estudiante(2003205786, 1, [cmpe150]).
+estudiante(2003205787, 1, []).
+estudiante(2003205789, 1, [math101]).
+estudiante(2003208789, 0, [ec201, hist301]).
+estudiante(2003208790, 0, [math101, phys201]).
+estudiante(2003328790, 1, [math101, hist301, ec201]).
+estudiante(2003328791, 0, [phys201]).
+estudiante(2003328792, 0, [ec201, hist301]).
+estudiante(2003328793, 0, [math101, hist301, cmpe150]).
+estudiante(2004328793, 1, []).
+estudiante(2005328794, 0, [cmpe150]).
+estudiante(2005328795, 1, [math101, phys201, cmpe150]).
+estudiante(2005328796, 0, [math101, eco201, hist301]).
+estudiante(2005328797, 0, []).
+estudiante(2006328700, 1, []).
+estudiante(2006328701, 1, [math101, hist301, cmpe150, ec201]).
+estudiante(2007623581, 1, [math101, eco201]).
+estudiante(2008628591, 1, [ec201, hist301]).
+estudiante(2008628592, 0, [math101, phys201]).
+estudiante(2008629592, 0, [math101, hist301]).
+estudiante(2008629593, 1, [math11, cmpe150]).
+estudiante(2008629594, 1, [ec201]).
+estudiante(2008629595, 1, [ec201]).
+estudiante(2008629596, 0, [ec201, math101]).
+estudiante(2008630601, 0, [math11, phys201, hist301]).
+estudiante(2008630602, 0, [math11, phys201, cmpe150]).
+estudiante(2008762566, 1, []).
 
 fechaexam(cmpe150, ['15.04.2018', '25.05.2018', '04.06.2018']).
 fechaexam(math101, ['17.04.2018', '15.05.2018', '04.06.2018']).
