@@ -137,7 +137,7 @@ search(X,[H|T]):- equal(X,H);search(X,T).
 head([_|H],X):-equal(H,X).
 
 count([],_,0).
-count([H|T], V, C):- equal(H,V),count(T, V, C1), C is C1 + 1.
+count([H|T], V, C):- equal(H,V),count(T, V, C1), C1 is C + 1.
 
 lista_clases(ID, X):- estudiante(ID,_,X).
 
