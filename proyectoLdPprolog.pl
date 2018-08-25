@@ -112,12 +112,12 @@ estudiante(2007623581, 1, [math101, eco201]).
 estudiante(2008628591, 1, [ec201, hist301]).
 estudiante(2008628592, 0, [math101, phys201]).
 estudiante(2008629592, 0, [math101, hist301]).
-estudiante(2008629593, 1, [math11, cmpe150]).
+estudiante(2008629593, 1, [math101, cmpe150]).
 estudiante(2008629594, 1, [ec201]).
 estudiante(2008629595, 1, [ec201]).
 estudiante(2008629596, 0, [ec201, math101]).
-estudiante(2008630601, 0, [math11, phys201, hist301]).
-estudiante(2008630602, 0, [math11, phys201, cmpe150]).
+estudiante(2008630601, 0, [math101, phys201, hist301]).
+estudiante(2008630602, 0, [phys201, math101,cmpe150]).
 estudiante(2008762566, 1, []).
 
 fechaexam(cmpe150, ['15.04.2018', '25.05.2018', '04.06.2018']).
@@ -125,3 +125,10 @@ fechaexam(math101, ['17.04.2018', '15.05.2018', '04.06.2018']).
 fechaexam(phys201, ['15.04.2018', '19.05.2018', '05.06.2018']).
 fechaexam(ec201, ['16.04.2018', '20.05.2018', '02.06.2018']).
 fechaexam(hist301, ['14.04.2018', '21.05.2018', '01.06.2018']).
+
+%Para saber si pertenece
+equal(X, [X|_]).
+equal(X, [_|Y]):- equal(X, Y).
+
+%Lista de estudiantes de una clase
+listaestudiante(M,L):- findall(X, (estudiante(X,_,Y), equal(M,Y)), L).
