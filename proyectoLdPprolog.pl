@@ -127,8 +127,8 @@ fechaexam(ec201, ['16.04.2018', '20.05.2018', '02.06.2018']).
 fechaexam(hist301, ['14.04.2018', '21.05.2018', '01.06.2018']).
 
 %Para saber si pertenece
-equal(X, [X|_]).
-equal(X, [_|Y]):- equal(X, Y).
+memberclass(X, [X|_]).
+memberclass(X, [_|Y]):- memberclass(X, Y).
 
 %Lista de estudiantes de una clase
-listaestudiante(M,L):- findall(X, (estudiante(X,_,Y), equal(M,Y)), L).
+listaestudiante(M,L):- findall(X, (estudiante(X,_,Y), memberclass(M,Y)), L).
