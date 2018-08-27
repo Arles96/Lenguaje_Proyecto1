@@ -55,6 +55,31 @@ aula(z9l9c, 20, 6).
 aula(k2sc9, 30, 4).
 aula(m4bcw, 40, 9).
 aula(jn6wd, 50, 25).
+aula(i9lzz, 72, 1).
+aula(hg4nn, 18, 2).
+aula(v9b20, 16, 3).
+aula(cxc3f, 47, 4).
+aula(ctlfb, 80, 5).
+aula(pwwv2, 60, 6).
+aula(f0ith, 50, 7).
+aula(qx55p, 99, 8).
+aula(r8clf, 99, 9).
+aula(d1sa9, 41, 10).
+aula(iva6o, 64, 11).
+aula(iunx7, 65, 12).
+aula(xqkg9, 48, 13).
+aula(um03q, 49, 1).
+aula(va935, 80, 2).
+aula(jdmi0, 31, 3).
+aula(c3308, 80, 4).
+aula(gp8pg, 21, 5).
+aula(gmj52, 71, 6).
+aula(kql0c, 80, 7).
+aula(n9cl9, 87, 8).
+aula(bgu3l, 98, 9).
+aula(t66ii, 67, 10).
+aula(nh0vp, 72, 11).
+aula(aq40m, 48, 12).
 
 estudiante(2000100001, 1, [math101, phys201, ec201]) .
 estudiante(2000100002, 1, [math101, phys201, hist301]).
