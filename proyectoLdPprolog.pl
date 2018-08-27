@@ -163,3 +163,13 @@ lista_estudiantes(ID, LES):- findall(X,(lista_clases(IDES,CLSES),search(ID,CLSES
 lista_fechas(ID,F):- findall(X,(lista_clases(ID,CLS),search(CL,CLS),fechaexam(CL,X)),F).
 %lista_fechas(ID,[H|T]):.
 
+size([], 0).
+
+size([_|Xs], L):-
+          size(Xs, L2),
+          L is L2 + 1.
+
+lista_estudiante_zurdo(M, L):- findall(X, (estudiante(X,Z,Y), memberclass(M,Y), equal(Z, 1)), L).
+
+
+aulas_adecuadas(M,L):- findall(X,(aula(X,_,Z), lista_estudiante_zurdo(M,S), size(Z,B), B<S), L).
