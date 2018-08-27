@@ -144,6 +144,56 @@ estudiante(2008629596, 0, [ec201, math101]).
 estudiante(2008630601, 0, [math101, phys201, hist301]).
 estudiante(2008630602, 0, [phys201, math101,cmpe150]).
 estudiante(2008762566, 1, []).
+estudiante(2008762567, 0, [phys201, ec201, hist301, amb109, geo402, prog505]).
+estudiante(2008762568, 1, [math101, hist301, cmpe150, amb109, geo402, struc123]).
+estudiante(2008762569, 0, [ec201, hist301, cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762570, 1, [math101, phys201, hist301, struc123]).
+estudiante(2008762571, 0, [math101, hist301, amb109, prog505, filo906]).
+estudiante(2008762572, 1, [math101, phys201, ec201, hist301, cmpe150, amb109, geo402, struc123]).
+estudiante(2008762573, 0, [math101, hist301, cmpe150, amb109, struc123]).
+estudiante(2008762574, 1, [phys201, ec201, hist301, geo402, struc123]).
+estudiante(2008762575, 0, [math101, phys201, hist301, amb109, geo402, struc123]).
+estudiante(2008762576, 1, [ec201, amb109, geo402, prog505, struc123]).
+estudiante(2008762577, 0, [math101, ec201, hist301, cmpe150, geo402, filo906]).
+estudiante(2008762578, 1, [math101, phys201, ec201, cmpe150, amb109, geo402, filo906, struc123]).
+estudiante(2008762579, 0, [math101, phys201, amb109, geo402, filo906, struc123]).
+estudiante(2008762580, 1, [math101, phys201, hist301, cmpe150, geo402, prog505, filo906]).
+estudiante(2008762581, 0, [ec201, hist301, cmpe150, amb109, filo906, struc123]).
+estudiante(2008762582, 1, [math101, hist301, cmpe150, amb109, geo402, prog505]).
+estudiante(2008762583, 0, [math101, ec201, cmpe150, geo402, prog505]).
+estudiante(2008762584, 1, [phys201, ec201, hist301, cmpe150, amb109, prog505]).
+estudiante(2008762585, 0, [math101, phys201, cmpe150, struc123]).
+estudiante(2008762586, 1, [hist301, amb109, filo906]).
+estudiante(2008762587, 0, [math101, ec201, hist301, amb109, geo402, filo906]).
+estudiante(2008762588, 1, [ec201, cmpe150, filo906, struc123]).
+estudiante(2008762589, 0, [cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762590, 1, [math101, phys201, ec201, amb109, struc123]).
+estudiante(2008762591, 0, [math101, phys201, hist301, amb109, struc123]).
+estudiante(2008762592, 1, [math101, prog505, filo906]).
+estudiante(2008762593, 0, [phys201, ec201, hist301, amb109, prog505]).
+estudiante(2008762594, 1, [hist301, cmpe150, geo402]).
+estudiante(2008762595, 0, [phys201, ec201, hist301, amb109, prog505, filo906]).
+estudiante(2008762596, 1, [math101, cmpe150, geo402, prog505]).
+estudiante(2008762597, 0, [math101, ec201, cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762598, 1, [math101, cmpe150, amb109, geo402, prog505]).
+estudiante(2008762599, 0, [math101, ec201, hist301, cmpe150, amb109, geo402, struc123]).
+estudiante(2008762600, 1, [ec201, hist301, cmpe150, amb109, geo402, prog505, struc123]).
+estudiante(2008762601, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762602, 1, [math101, ec201, hist301, cmpe150, filo906, struc123]).
+estudiante(2008762603, 0, [ec201, hist301, amb109, prog505]).
+estudiante(2008762604, 1, [math101, phys201, ec201, hist301, amb109, geo402, prog505, filo906]).
+estudiante(2008762605, 0, [math101, phys201, hist301, amb109, prog505]).
+estudiante(2008762606, 1, [cmpe150, geo402, prog505, filo906]).
+estudiante(2008762607, 0, [phys201, amb109, geo402]).
+estudiante(2008762608, 1, [phys201, hist301, cmpe150, amb109, prog505]).
+estudiante(2008762609, 0, [math101, phys201, ec201, hist301, cmpe150, prog505, filo906, struc123]).
+estudiante(2008762610, 1, [math101, phys201, ec201, hist301, amb109, prog505, filo906]).
+estudiante(2008762611, 0, [math101, ec201, geo402, struc123]).
+estudiante(2008762612, 1, [math101, phys201, cmpe150, geo402, prog505]).
+estudiante(2008762613, 0, [math101, phys201, filo906]).
+estudiante(2008762614, 1, [math101, phys201, ec201, prog505, struc123]).
+estudiante(2008762615, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505]).
+estudiante(2008762616, 1, [cmpe150, amb109, geo402, filo906, struc123]).
 
 fechaexam(cmpe150, ['15.04.2018', '25.05.2018', '04.06.2018']).
 fechaexam(math101, ['17.04.2018', '15.05.2018', '04.06.2018']).
