@@ -134,7 +134,8 @@ equal(X,X).
 search(X,[H|T]):- equal(X,H);search(X,T).
 %search(X, [H|T]):- search(X,H);search(X,T).
 
-head([_|H],X):-equal(H,X).
+%coleccion([H:T], LES):-
+%coleccion(ES, LES):- estudiante(ES,_,_),search(ES,LES).
 
 %count([],_,0).
 %count([H|T], V, C):- equal(H,V),count(T, V, C1), C is C1 + 1.
@@ -146,8 +147,13 @@ lista_clases(ID, X):- estudiante(ID,_,X).
 parte1(ID, E):- search(ID, Z), search(Z,E).
 
 
-lista_estudiantes(ID, LES):- lista_clases(IDES,CLSES),search(ID,CLSES),equal(IDES,LES).
-lista_fechas(ID,F):- lista_clases(ID,CLS),search(CL,CLS),fechaexam(CL,F).
+% lista_estudiantes(ID, LES):-
+% lista_clases(IDES,CLSES),search(ID,CLSES),equal(IDES,LES), findall(X,
+% ).
+lista_estudiantes(ID, LES):- findall(X,(lista_clases(IDES,CLSES),search(ID,CLSES),equal(IDES,X)), LES).
+
+
+lista_fechas(ID,F):- findall(X,(lista_clases(ID,CLS),search(CL,CLS),fechaexam(CL,X)),F).
 %lista_fechas(ID,[H|T]):.
 
 
