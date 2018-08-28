@@ -252,4 +252,4 @@ size([_|Xs], L):-
 lista_estudiante_zurdo(M, L):- findall(X, (estudiante(X,Z,Y), memberclass(M,Y), equal(Z, 1)), L).
 
 
-aulas_adecuadas(M,L):- findall(X,(aula(X,_,Z), lista_estudiante_zurdo(M,S), size(Z,B), B<S), L).
+aulas_adecuadas(M,L):- findall(X,(aula(X,_,Z), lista_estudiante_zurdo(M,S), size(S,B), B<Z), L).
