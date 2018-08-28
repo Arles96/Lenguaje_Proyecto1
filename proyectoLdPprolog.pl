@@ -9,52 +9,77 @@ aula(v4nja, 69, 5).
 aula(zmh3k, 16, 10).
 aula(pjqq9, 19, 15).
 aula(ci19y, 98, 20).
-aula(k3vzu, 10, 25).
+aula(k3vzu, 25, 10).
 aula(jl235, 53, 30).
 aula(uw4tp, 58, 35).
 aula(zo0jj, 68, 40).
-aula(vdrn1, 55, 45).
-aula(iqr46, 32, 50).
-aula(mufe5, 37, 55).
-aula(a64n7, 43, 60).
-aula(mdxfp, 56, 65).
-aula(zhnvt, 11, 70).
-aula(mo475, 27, 75).
-aula(xd82w, 45, 80).
-aula(vmq96, 65, 85).
-aula(leyjv, 26, 90).
-aula(np490, 28, 95).
-aula(qx2o9, 14, 25).
+aula(vdrn1, 55, 4).
+aula(iqr46, 32, 5).
+aula(mufe5, 37, 5).
+aula(a64n7, 43, 6).
+aula(mdxfp, 56, 6).
+aula(zhnvt, 11, 7).
+aula(mo475, 27, 5).
+aula(xd82w, 45, 0).
+aula(vmq96, 65, 8).
+aula(leyjv, 26, 9).
+aula(np490, 28, 5).
+aula(qx2o9, 14, 2).
 aula(uuci1, 41, 15).
-aula(blio6, 34, 30).
-aula(v9fd6, 26, 95).
-aula(xebno, 99, 90).
+aula(blio6, 34, 3).
+aula(v9fd6, 26, 9).
+aula(xebno, 99, 20).
 aula(m1sz3, 97, 75).
-aula(ez0ih, 57, 85).
-aula(i5415, 22, 65).
-aula(hmtkq, 55, 60).
-aula(abcq4, 59, 45).
+aula(ez0ih, 57, 18).
+aula(i5415, 22, 12).
+aula(hmtkq, 55, 8).
+aula(abcq4, 59, 4).
 aula(pehdk, 74, 5).
 aula(c02wg, 66, 20).
 aula(rhtql, 78, 10).
-aula(ek2l3, 46, 40).
+aula(ek2l3, 46, 4).
 aula(enkhh, 70, 70).
 aula(enu4x, 74, 50).
 aula(k2ks8, 60, 55).
-aula(sahaa, 40, 80).
+aula(sahaa, 40, 8).
 aula(xhugd, 89, 35).
 aula(d79bj, 42, 10).
-aula(yzpba, 32, 95).
-aula(piis0, 23, 75).
+aula(yzpba, 95, 32).
+aula(piis0, 75, 23).
 aula(nv34v, 35, 20).
-aula(sq4tn, 64, 65).
-aula(i0jmu, 41, 80).
+aula(sq4tn, 64, 15).
+aula(i0jmu, 41, 8).
 aula(cahva, 43, 35).
-aula(rn21g, 10, 15).
-aula(z9l9c, 20, 60).
-aula(k2sc9, 30, 45).
-aula(m4bcw, 40, 90).
+aula(rn21g, 10, 1).
+aula(z9l9c, 20, 6).
+aula(k2sc9, 30, 4).
+aula(m4bcw, 40, 9).
 aula(jn6wd, 50, 25).
+aula(i9lzz, 72, 1).
+aula(hg4nn, 18, 2).
+aula(v9b20, 16, 3).
+aula(cxc3f, 47, 4).
+aula(ctlfb, 80, 5).
+aula(pwwv2, 60, 6).
+aula(f0ith, 50, 7).
+aula(qx55p, 99, 8).
+aula(r8clf, 99, 9).
+aula(d1sa9, 41, 10).
+aula(iva6o, 64, 11).
+aula(iunx7, 65, 12).
+aula(xqkg9, 48, 13).
+aula(um03q, 49, 1).
+aula(va935, 80, 2).
+aula(jdmi0, 31, 3).
+aula(c3308, 80, 4).
+aula(gp8pg, 21, 5).
+aula(gmj52, 71, 6).
+aula(kql0c, 80, 7).
+aula(n9cl9, 87, 8).
+aula(bgu3l, 98, 9).
+aula(t66ii, 67, 10).
+aula(nh0vp, 72, 11).
+aula(aq40m, 48, 12).
 
 estudiante(2000100001, 1, [math101, phys201, ec201]) .
 estudiante(2000100002, 1, [math101, phys201, hist301]).
@@ -119,12 +144,67 @@ estudiante(2008629596, 0, [ec201, math101]).
 estudiante(2008630601, 0, [math101, phys201, hist301]).
 estudiante(2008630602, 0, [phys201, math101,cmpe150]).
 estudiante(2008762566, 1, []).
+estudiante(2008762567, 0, [phys201, ec201, hist301, amb109, geo402, prog505]).
+estudiante(2008762568, 1, [math101, hist301, cmpe150, amb109, geo402, struc123]).
+estudiante(2008762569, 0, [ec201, hist301, cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762570, 1, [math101, phys201, hist301, struc123]).
+estudiante(2008762571, 0, [math101, hist301, amb109, prog505, filo906]).
+estudiante(2008762572, 1, [math101, phys201, ec201, hist301, cmpe150, amb109, geo402, struc123]).
+estudiante(2008762573, 0, [math101, hist301, cmpe150, amb109, struc123]).
+estudiante(2008762574, 1, [phys201, ec201, hist301, geo402, struc123]).
+estudiante(2008762575, 0, [math101, phys201, hist301, amb109, geo402, struc123]).
+estudiante(2008762576, 1, [ec201, amb109, geo402, prog505, struc123]).
+estudiante(2008762577, 0, [math101, ec201, hist301, cmpe150, geo402, filo906]).
+estudiante(2008762578, 1, [math101, phys201, ec201, cmpe150, amb109, geo402, filo906, struc123]).
+estudiante(2008762579, 0, [math101, phys201, amb109, geo402, filo906, struc123]).
+estudiante(2008762580, 1, [math101, phys201, hist301, cmpe150, geo402, prog505, filo906]).
+estudiante(2008762581, 0, [ec201, hist301, cmpe150, amb109, filo906, struc123]).
+estudiante(2008762582, 1, [math101, hist301, cmpe150, amb109, geo402, prog505]).
+estudiante(2008762583, 0, [math101, ec201, cmpe150, geo402, prog505]).
+estudiante(2008762584, 1, [phys201, ec201, hist301, cmpe150, amb109, prog505]).
+estudiante(2008762585, 0, [math101, phys201, cmpe150, struc123]).
+estudiante(2008762586, 1, [hist301, amb109, filo906]).
+estudiante(2008762587, 0, [math101, ec201, hist301, amb109, geo402, filo906]).
+estudiante(2008762588, 1, [ec201, cmpe150, filo906, struc123]).
+estudiante(2008762589, 0, [cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762590, 1, [math101, phys201, ec201, amb109, struc123]).
+estudiante(2008762591, 0, [math101, phys201, hist301, amb109, struc123]).
+estudiante(2008762592, 1, [math101, prog505, filo906]).
+estudiante(2008762593, 0, [phys201, ec201, hist301, amb109, prog505]).
+estudiante(2008762594, 1, [hist301, cmpe150, geo402]).
+estudiante(2008762595, 0, [phys201, ec201, hist301, amb109, prog505, filo906]).
+estudiante(2008762596, 1, [math101, cmpe150, geo402, prog505]).
+estudiante(2008762597, 0, [math101, ec201, cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762598, 1, [math101, cmpe150, amb109, geo402, prog505]).
+estudiante(2008762599, 0, [math101, ec201, hist301, cmpe150, amb109, geo402, struc123]).
+estudiante(2008762600, 1, [ec201, hist301, cmpe150, amb109, geo402, prog505, struc123]).
+estudiante(2008762601, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505, filo906, struc123]).
+estudiante(2008762602, 1, [math101, ec201, hist301, cmpe150, filo906, struc123]).
+estudiante(2008762603, 0, [ec201, hist301, amb109, prog505]).
+estudiante(2008762604, 1, [math101, phys201, ec201, hist301, amb109, geo402, prog505, filo906]).
+estudiante(2008762605, 0, [math101, phys201, hist301, amb109, prog505]).
+estudiante(2008762606, 1, [cmpe150, geo402, prog505, filo906]).
+estudiante(2008762607, 0, [phys201, amb109, geo402]).
+estudiante(2008762608, 1, [phys201, hist301, cmpe150, amb109, prog505]).
+estudiante(2008762609, 0, [math101, phys201, ec201, hist301, cmpe150, prog505, filo906, struc123]).
+estudiante(2008762610, 1, [math101, phys201, ec201, hist301, amb109, prog505, filo906]).
+estudiante(2008762611, 0, [math101, ec201, geo402, struc123]).
+estudiante(2008762612, 1, [math101, phys201, cmpe150, geo402, prog505]).
+estudiante(2008762613, 0, [math101, phys201, filo906]).
+estudiante(2008762614, 1, [math101, phys201, ec201, prog505, struc123]).
+estudiante(2008762615, 0, [phys201, ec201, hist301, cmpe150, geo402, prog505]).
+estudiante(2008762616, 1, [cmpe150, amb109, geo402, filo906, struc123]).
 
 fechaexam(cmpe150, ['15.04.2018', '25.05.2018', '04.06.2018']).
 fechaexam(math101, ['17.04.2018', '15.05.2018', '04.06.2018']).
 fechaexam(phys201, ['15.04.2018', '19.05.2018', '05.06.2018']).
 fechaexam(ec201, ['16.04.2018', '20.05.2018', '02.06.2018']).
 fechaexam(hist301, ['14.04.2018', '21.05.2018', '01.06.2018']).
+fechaexam(amb109, ['15.04.2018', '25.05.2018', '04.06.2018']).
+fechaexam(geo402, ['17.04.2018', '15.05.2018', '04.06.2018']).
+fechaexam(filo906, ['15.04.2018', '19.05.2018', '05.06.2018']).
+fechaexam(struc123, ['16.04.2018', '20.05.2018', '02.06.2018']).
+fechaexam(prog505, ['14.04.2018', '21.05.2018', '01.06.2018']).
 
 %Para saber si pertenece
 memberclass(X, [X|_]).
@@ -141,7 +221,8 @@ equal(X,X).
 search(X,[H|T]):- equal(X,H);search(X,T).
 %search(X, [H|T]):- search(X,H);search(X,T).
 
-head([_|H],X):-equal(H,X).
+%coleccion([H:T], LES):-
+%coleccion(ES, LES):- estudiante(ES,_,_),search(ES,LES).
 
 %count([],_,0).
 %count([H|T], V, C):- equal(H,V),count(T, V, C1), C is C1 + 1.
@@ -153,7 +234,22 @@ lista_clases(ID, X):- estudiante(ID,_,X).
 parte1(ID, E):- search(ID, Z), search(Z,E).
 
 
-lista_estudiantes(ID, LES):- lista_clases(IDES,CLSES),search(ID,CLSES),equal(IDES,LES).
-lista_fechas(ID,F):- lista_clases(ID,CLS),search(CL,CLS),fechaexam(CL,F).
+% lista_estudiantes(ID, LES):-
+% lista_clases(IDES,CLSES),search(ID,CLSES),equal(IDES,LES), findall(X,
+% ).
+lista_estudiantes(ID, LES):- findall(X,(lista_clases(IDES,CLSES),search(ID,CLSES),equal(IDES,X)), LES).
+
+
+lista_fechas(ID,F):- findall(X,(lista_clases(ID,CLS),search(CL,CLS),fechaexam(CL,X)),F).
 %lista_fechas(ID,[H|T]):.
 
+size([], 0).
+
+size([_|Xs], L):-
+          size(Xs, L2),
+          L is L2 + 1.
+
+lista_estudiante_zurdo(M, L):- findall(X, (estudiante(X,Z,Y), memberclass(M,Y), equal(Z, 1)), L).
+
+
+aulas_adecuadas(M,L):- findall(X,(aula(X,_,Z), lista_estudiante_zurdo(M,S), size(Z,B), B<S), L).
